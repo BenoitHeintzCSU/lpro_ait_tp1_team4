@@ -19,7 +19,6 @@ void setup()
   Serial.begin (9600);
 }
 
-
 /**
  * loop()
  */
@@ -30,7 +29,6 @@ void loop()
   motor_command(-200);
   delay(2000);
 }
-
 
 /**
  * motor_command(int command)

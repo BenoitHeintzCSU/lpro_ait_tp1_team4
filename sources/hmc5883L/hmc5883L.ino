@@ -39,7 +39,6 @@ void loop()
   delay(100);
 }
 
-
 /**
  * Init_HMC5803L
  * Initialize the compass
