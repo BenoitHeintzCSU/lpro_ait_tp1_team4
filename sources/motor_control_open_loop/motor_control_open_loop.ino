@@ -29,12 +29,12 @@ void loop()
   delay(2000);
   motor_command(-200);
   delay(2000);
-  for (i=0;i<15;i++)
+  for (i=0;i<15;i++)// 3.75s
   {
     motor_command(i*-1*50);
-    delay(500);
+    delay(250);
   }
-  for (i=0;i<15;i++)
+  for (i=0;i<15;i++)// 3.75s
   {
     motor_command(i*50);
     delay(250);
