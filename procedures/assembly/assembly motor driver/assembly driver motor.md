@@ -15,11 +15,12 @@
 
 ## 2) Process
 - The motor driver must be plugged into the Arduino.
-- On one of the sides, we can see [10 9 8 7 6] and on the opposite side, we can see [VCC GND AVIN].
+- On one of the sides, we can see *[10 9 8 7 6]* and on the opposite side, we can see *[VCC GND AVIN]*.
 - And on the Arduino, we can see the pins [10 9 8 7 6 ].
-- Plug the side with the pins [10 9 8 7 6] of the motor driver on the same pins of the Arduino.
+- Plug the side with the pins *[10 9 8 7 6]* of the motor driver on the same pins of the Arduino.
 <span style="color:red">**Check the opposite side.**</span>
-- 
+- Now we have to plug the red and black wires in the driver motor in the pins *[M1A M1B]*.
 
 ## 3) Result
-<img src="./final.jpg" width="200px" height="200px" />
+this how is the final assembly<br />
+<img src="./final.jpg" />
