@@ -2,8 +2,9 @@
 
 ## Summary
 1. Hardware
-2. process
-3. result
+2. Process
+3. Arduino
+4. result
 
 ## 1) Hardware
 1. [Arduino Uno](https://store.arduino.cc/)<br />
@@ -21,6 +22,15 @@
 <span style="color:red">**Check the opposite side.**</span>
 - Now we have to plug the red and black wires in the driver motor in the pins *[M1A M1B]*.
 
-## 3) Result
+## 3) Arduino
+- Connect the arduino to laptop via usb type-B cable
+- Open the arduino IDE software (version 1.8 or higher)
+- In the Arduino IDE, open the "Sketch" menu, select "Include Library", then "Manage Libraries..
+- Search for "DRV8835MotorShield".
+- Click the DRV8835MotorShield entry in the list.
+- Click "Install".
+
+
+## 4) Result
 this how is the final assembly<br />
 <img src="./final.jpg" />
