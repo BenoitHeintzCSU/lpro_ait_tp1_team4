@@ -9,6 +9,7 @@
 #define LED_PIN 13
 DRV8835MotorShield motors;
 void motor_command(int command);
+int i=0;
 
 /**
  * setup()
@@ -28,6 +29,18 @@ void loop()
   delay(2000);
   motor_command(-200);
   delay(2000);
+  for (i=0;i<15;i++)// 3.75s
+  {
+    motor_command(i*-1*50);
+    delay(250);
+  }
+  for (i=0;i<15;i++)// 3.75s
+  {
+    motor_command(i*50);
+    delay(250);
+  }
+  motor_command(0);
+  delay(5000);
 }
 
 /**

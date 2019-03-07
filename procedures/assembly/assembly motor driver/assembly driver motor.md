@@ -20,7 +20,7 @@
 - And on the Arduino, we can see the pins [10 9 8 7 6 ].
 - Plug the side with the pins *[10 9 8 7 6]* of the motor driver on the same pins of the Arduino.
 <span style="color:red">**Check the opposite side.**</span>
-- Now we have to plug the red and black wires in the driver motor in the pins *[M1A M1B]*.
+- Now we have to plug the red and black wires of the motor in the driver motor in the pins *[M1A M1B]*.
 
 ## 3) Arduino
 - Connect the arduino to laptop via usb type-B cable
