@@ -50,5 +50,3 @@ void motor_command(int command)
     digitalWrite(LED_PIN, HIGH);
   }
 }
-
-
