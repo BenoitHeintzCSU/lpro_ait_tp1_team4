@@ -7,7 +7,7 @@
 
 ## Hardware
 1. [Arduino Uno](https://store.arduino.cc/)
-![arduino](arduino.jpg)
+![arduino](arduino.jpg =250x)
 2. Motor: [EMG30](https://www.gotronic.fr/art-motoreducteur-encodeur-emg30-866.htm)
 3. Motor driver: [Pololu DRV8835 Dual Motor Driver Shield for Arduino](https://www.pololu.com/product/2511)
 
