@@ -12,27 +12,31 @@ this document is a procedure for the motor assembly
 ## 1) Hardware
 - motor support
 
-<img src="./picture/piece_support.jpg" width="100px" height="100px"/>
+<img src="./picture/piece_support.jpg" width="150" height="150px"/>
 
 - motor EMG30
 
-<img src="./picture/piece_motor.jpg" width="100px" height="100px"/>
+<img src="./picture/piece_motor.jpg" width="150px" height="150px"/>
 
 - m3*6 screw
 
-<img src="./picture/piece_vis m3x6.jpg" width="100px" height="100px"/>
+<img src="./picture/piece_vis m3x6.jpg" width="150px" height="150px"/>
 
-## 2) Hardware
+## 2) process
 - put together the motor support and the motor
-<img src="./picture/assembly_motor_assembly1.jpg" width="100px" height="100px"/>
+
+<img src="./picture/assembly_motor_assembly1.jpg" width="150px" height="150px"/>
 
 - turn the motor in the support for aline holl
-<img src="./picture/assembly_motor_assembly2.jpg" width="100px" height="100px"/>
+
+<img src="./picture/assembly_motor_assembly2.jpg" width="150px" height="150px"/>
 
 - take the m3 screw and screw the support to the motor
-<img src="./picture/assembly_motor_assembly3.jpg" width="100px" height="100px"/>
+
+<img src="./picture/assembly_motor_assembly3.jpg" width="150px" height="150px"/>
 
 ## 3) result
 
 - this how is the final assembly
-<img src="./picture/assembly_motor_assembly4.jpg" width="100px" height="100px"/>
+
+<img src="./picture/assembly_motor_assembly4.jpg" width="150px" height="150px"/>
