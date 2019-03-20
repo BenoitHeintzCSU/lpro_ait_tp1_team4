@@ -52,7 +52,7 @@ void setup()
 void loop()
 {
   Ymagnetic = HMC5883L_read(Y);
-  Serial.println (vitesse);
+  Serial.println (Ymagnetic);
   vitesse = 0.002586 * E[1] + 0.0016858 * E[0] + 1.5113 * S[1] - 0.5487610 * S[0];
   Erreur = 0 - Ymagnetic;
   Total_Erreur += Erreur;

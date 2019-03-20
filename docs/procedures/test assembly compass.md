@@ -8,14 +8,15 @@ all sens are in motor axis sight <span style="color:red">Not clear</span>
 3. result
 
 ## 1) Hardware
-- assembly motor
-- arduino IDE with the library (check in //////////)
+- assembly compass
+- arduino IDE
 
 ## 2) Process
 - Connect arduino to the laptop
 - Open the linked test software (../sources/hmc5883L/hmc5883L.ino)
 - In tool select the Arduino UNO card and the right COM port
 - Download this software in the Arduino
+- 
 
 
 ## 3) Result
