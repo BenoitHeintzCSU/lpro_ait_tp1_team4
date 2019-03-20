@@ -9,7 +9,7 @@
 ## 1) Hardware
 1. [Arduino Uno](https://store.arduino.cc/)<br />
 <img src="./picture/arduino.jpg" width="200px" height="200px" />
-2. Motor assembly: [EMG30](https://www.gotronic.fr/art-motoreducteur-encodeur-emg30-866.htm)<br />
+2. Motor assembly: [EMG30](https://www.gotronic.fr/art-motoreducteur-encodeur-emg30-866.htm) (if you dont have this assembly refer to assembly_motor.md in: ..\docs\procedure\assembly motor)<br /> 
 <img src="../assembly motor/picture/assembly_motor_assembly4.jpg" width="200px" height="200px" />
 3. Motor driver: [Pololu DRV8835 Dual Motor Driver Shield for Arduino](https://www.pololu.com/product/2511)<br />
 <img src="./picture/motor driver.jpg" width="200px" height="200px" />
