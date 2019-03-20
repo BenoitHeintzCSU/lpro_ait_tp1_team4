@@ -16,7 +16,7 @@ all sens are in motor axis sight <span style="color:red">Not clear</span>
 
 ## 2) Process
 - Connect arduino to the laptop
-- Open the linked test software (motor_control_open_loop.ino)
+- Open the linked test software (../sources/motor_control_open_loop.ino)
 - In tool select the Arduino UNO card and the right COM port
 - Download this software ine the Arduino
 - Use the result sheet to verif:
@@ -26,7 +26,7 @@ all sens are in motor axis sight <span style="color:red">Not clear</span>
 
 ## 3) result
 
-| action |Passed  |Failed| anotaion|
+| action |Passed  |Failed| annotation|
 |----------------------|--------|-----------------|---------|
 | motor turn clockwise for 2s||||
 | motor turn anticlockwise for 2s||||
