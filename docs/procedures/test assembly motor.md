@@ -23,7 +23,7 @@ all sens are in motor axis sight <span style="color:red">Not clear</span>
 
 ## 3) result
 
-| action |Passed  |Failed| annotation|
+| Action |Passed  |Failed| Annotation|
 |----------------------|--------|-----------------|---------|
 | motor turn clockwise for 2s||||
 | motor turn anticlockwise for 2s||||

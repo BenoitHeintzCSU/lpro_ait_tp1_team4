@@ -21,10 +21,10 @@ all sens are in motor axis sight <span style="color:red">Not clear</span>
     - anticlockwise LED ON, clockwise LED OFF
     - after the mortor accelerate in one direction for 3.75s then accelerate in the other direction 
 
-## 3) result
+## 3) Result
 
-| action |Passed  |Failed| annotation|
-|----------------------|--------|-----------------|---------|
+| Action|Passed|Failed|Annotation|
+|-|-|-|-|
 | motor turn clockwise for 2s||||
 | motor turn anticlockwise for 2s||||
 | LED OFF when clockwise||||
