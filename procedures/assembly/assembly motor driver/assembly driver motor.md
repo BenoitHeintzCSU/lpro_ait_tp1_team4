@@ -1,3 +1,8 @@
+# Correction
+* <span style="color:red">Put **/procedures** folder in **/docs**.</span>
+* <span style="color:red">On the other one you have a */picture* folder... choose one way to do it, but do the same everywhere.</span>
+
+
 # Assemassembly procedure to mount the motor driver on the Arduino and connect the motor
 
 ## Summary
@@ -22,6 +27,8 @@
 <span style="color:red">**Check the opposite side.**</span>
 - Now we have to plug the red and black wires of the motor in the driver motor in the pins *[M1A M1B]*.
 
+<span style="color:red">A picture would improve readability.</span>
+
 ## 3) Arduino
 - Connect the arduino to laptop via usb type-B cable
 - Open the arduino IDE software (version 1.8 or higher)
@@ -32,5 +39,8 @@
 
 
 ## 4) Result
-this how is the final assembly<br />
+~~this how is the final assembly~~<span style="color:red">This is how the final assembly looks like</span>
+
+<span style="color:red">In 2) you show the motor picture, but on this picture you show the motor+support. Be consistant.</span>
+
 <img src="./final.jpg" />

@@ -1,6 +1,9 @@
+# Correction
+* <span style="color:red">Put **/procedures** folder in **/docs**.</span>
+
 # test of the final assembly
 
-all sens are in motor axis sight
+all sens are in motor axis sight <span style="color:red">Not clear</span>
 
 ## Summary
 1. Hardware
@@ -13,7 +16,7 @@ all sens are in motor axis sight
 
 ## 2) Process
 - Connect arduino to the laptop
-- Open the linked test software
+- Open the linked test software <span style="color:red">Which one?</span>
 - In tool select the Arduino UNO card and the right COM port
 - Download this software ine the Arduino
 - Use the result sheet to verif:
@@ -22,9 +25,9 @@ all sens are in motor axis sight
     - after the mortor accelerate in one direction for 3.75s then accelerate in the other direction 
 
 ## 3) result
+<span style="color:red">Really good!</span>
 
-
-| action |work    |don't work   | anotaion|
+| action |~~work~~ <span style="color:red">Passed</span>    |~~don't work~~ <span style="color:red">Failed</span>   | anotaion|
 |----------------------|--------|-----------------|---------|
 | motor turn clockwise for 2s||||
 | motor turn anticlockwise for 2s||||
