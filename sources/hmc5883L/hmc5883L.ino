@@ -9,6 +9,11 @@
  */
 #include <Wire.h>               //I2C lib
 #define HMC5883L_address 0x1E  //I2C address of the HMC5883L
+#include <DRV8835MotorShield.h>
+#define LED_PIN 13
+
+DRV8835MotorShield motors;
+void motor_command(int command);
 
 #define X 3  //X, Y and Z register addresses
 #define Y 7
@@ -16,14 +21,28 @@
 double Xmagnetic;
 double Ymagnetic;
 double Zmagnetic;
+int E[2] = {0, 0}; //[n-2,n-1]
+int S[2] = {0, 0}; //[n-2,n-1]
+int Kp = 10;
+int Ki = 1;
+int Kd = 1;
+int Erreur = 0;
+int Total_Erreur = 0;
+int Erreur_Prec = 0;
+int P = 0;
+int I = 0;
+int D = 0;
+int vitesse = 0;
+int command;
 
 /**
  * Setup
  */
 void setup()
 {
+  pinMode(LED_PIN, OUTPUT);
   Serial.begin(9600);
-  Wire.begin();         //Initialisation de la livrairie Wire
+  Wire.begin();         //Initialisation de la librairie Wire
   Init_HMC5803L();    //Initialiser le module boussole
 }
 
@@ -32,10 +51,24 @@ void setup()
  */
 void loop()
 {
-  Xmagnetic = HMC5883L_read(X);
   Ymagnetic = HMC5883L_read(Y);
-  Zmagnetic = HMC5883L_read(Z);
-  Serial.println (Ymagnetic);
+  Serial.println (vitesse);
+  vitesse = 0.002586 * E[1] + 0.0016858 * E[0] + 1.5113 * S[1] - 0.5487610 * S[0];
+  Erreur = 0 - Ymagnetic;
+  Total_Erreur += Erreur;
+  P = Erreur * Kp;
+  I = Total_Erreur * Ki;
+  D = (Erreur - Erreur_Prec) * Kd;
+  Erreur_Prec = Erreur;
+  command = P + I + D;
+  vitesse = command;
+  E[0] = E[1];
+  E[1] = command;
+  S[0] = S[1];
+  S[1] = Ymagnetic;
+  if(vitesse>200){motor_command(200);}
+  else if(vitesse<-200){motor_command(-200);}
+  else{motor_command(vitesse);}
   delay(100);
 }
 
@@ -80,4 +113,18 @@ int HMC5883L_read(byte Axis)
   Result |= Wire.read();
 
   return Result;
+}
+
+void motor_command(int command)
+{
+  if (command < 0) {
+    motors.flipM1(true);
+    motors.setM1Speed(-command);
+    digitalWrite(LED_PIN, LOW);
+  }
+  else {
+    motors.flipM1(false);
+    motors.setM1Speed(command);
+    digitalWrite(LED_PIN, HIGH);
+  }
 }

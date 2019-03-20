@@ -13,9 +13,9 @@ all sens are in motor axis sight <span style="color:red">Not clear</span>
 
 ## 2) Process
 - Connect arduino to the laptop
-- Open the linked test software (../sources/motor_control_open_loop.ino)
+- Open the linked test software (../sources/motor_control_open_loop/motor_control_open_loop.ino)
 - In tool select the Arduino UNO card and the right COM port
-- Download this software ine the Arduino
+- Download this software in the Arduino
 - Use the result sheet to verif:
     - the motor turn clockwise for 2s then turn anticlockwise for 2s 
     - anticlockwise LED ON, clockwise LED OFF
