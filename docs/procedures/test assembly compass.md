@@ -18,10 +18,10 @@ all sens are in motor axis sight <span style="color:red">Not clear</span>
 - Download this software in the Arduino
 
 
-## 3) result
+## 3) Result
 
-| action |Passed  |Failed| annotation|
-|----------------------|--------|-----------------|---------|
+| Action|Passed|Failed|Annotation|
+|-|-|-|-|
 | motor turn clockwise for 2s||||
 | motor turn anticlockwise for 2s||||
 | LED OFF when clockwise||||
