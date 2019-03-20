@@ -39,8 +39,6 @@
 
 
 ## 4) Result
-~~this how is the final assembly~~<span style="color:red">This is how the final assembly looks like</span>
-
-<span style="color:red">In 2) you show the motor picture, but on this picture you show the motor+support. Be consistant.</span>
+This is how the final assembly looks like
 
 <img src="./final.jpg" />
