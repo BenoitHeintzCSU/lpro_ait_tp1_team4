@@ -1,7 +1,5 @@
 # test of the assembly compass
 
-all sens are in motor axis sight <span style="color:red">Not clear</span>
-
 ## Summary
 1. Hardware
 2. Process
@@ -13,19 +11,19 @@ all sens are in motor axis sight <span style="color:red">Not clear</span>
 
 ## 2) Process
 - Connect arduino to the laptop
+- Check if the LED on the octopus module is ON if not turn of the arduino and verify the cable
 - Open the linked test software (../sources/hmc5883L/hmc5883L.ino)
 - In tool select the Arduino UNO card and the right COM port
 - Download this software in the Arduino
-- 
+- Open serial port on arduino IDE and verify if the value are between -1000 and 1000
+-check with a compas if the assembly point the north
 
 
 ## 3) Result
 
 | Action|Passed|Failed|Annotation|
 |-|-|-|-|
-| motor turn clockwise for 2s||||
-| motor turn anticlockwise for 2s||||
-| LED OFF when clockwise||||
-| LED ON when anticlockwise||||
-| accelerate in clockwise for 3.75s||||
-| accelerate in anticlockwise for 3.75s||||
+| Module LED ON||||
+| Serial communication work||||
+| value between -1000 and 1000||||
+| assembly point north||||
