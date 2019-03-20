@@ -1,6 +1,3 @@
-# Correction
-* <span style="color:red">Put **/procedures** folder in **/docs**.</span>
-
 # test of the final assembly
 
 all sens are in motor axis sight <span style="color:red">Not clear</span>

@@ -1,7 +1,3 @@
-# Correction
-* <span style="color:red">Put **/procedures** folder in **/docs**.</span>
-* <span style="color:red">A title is missing.</span>
-
 # context
 
 this document is a procedure for the motor assembly
