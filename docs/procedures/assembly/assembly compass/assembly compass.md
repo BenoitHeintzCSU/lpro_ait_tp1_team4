@@ -40,7 +40,7 @@
 
 - connect the green suport to the motor assembly with the m2 screw (be sure to put the screw on the flat side the motor axis)
 
-<img src="./picture/fixation_green_to_bleu.jpg" width="150px"/>
+<img src="./picture/fixation_green_to_bleu.jpg" width="300px"/>
 
 - connect the power of octopus module to the motor driver (red vin, brown ground)
 

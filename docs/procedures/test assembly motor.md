@@ -1,6 +1,6 @@
 # test of the assembly motor
 
-all sens are in motor axis sight <span style="color:red">Not clear</span>
+*all sens are when you see the front of the motor*
 
 ## Summary
 1. Hardware
