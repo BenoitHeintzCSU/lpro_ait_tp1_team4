@@ -4,7 +4,7 @@
 1. Hardware
 2. Process
 3. Arduino
-4. result
+4. Result
 
 ## 1) Hardware
 1. [Arduino Uno](https://store.arduino.cc/)<br />

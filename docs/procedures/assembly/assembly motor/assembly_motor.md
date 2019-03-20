@@ -8,8 +8,8 @@ this document is a procedure for the motor assembly
 
 ## Summary
 1. Hardware
-2. process
-3. result
+2. Process
+3. Result
 
 ## 1) Hardware
 - motor support
