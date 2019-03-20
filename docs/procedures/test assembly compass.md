@@ -1,4 +1,4 @@
-# test of the assembly motor
+# test of the assembly compass
 
 all sens are in motor axis sight <span style="color:red">Not clear</span>
 
@@ -9,7 +9,7 @@ all sens are in motor axis sight <span style="color:red">Not clear</span>
 
 ## 1) Hardware
 - assembly motor
-- arduino IDE with the library (check in assembly driver motor part 3 arduino)
+- arduino IDE with the library (check in //////////)
 
 ## 2) Process
 - Connect arduino to the laptop
