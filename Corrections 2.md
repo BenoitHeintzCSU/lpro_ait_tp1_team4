@@ -15,7 +15,7 @@
 ## assembly compass.md
 
 - _..\docs\procedure\assembly_ make links
-- Les phrases doiven commencer par des majuscules
+- Les phrases doivent commencer par des majuscules
 - Ok
 
 ## assembly driver motor.md
